@@ -1,3 +1,5 @@
+https://github.com/kashyap1808/assignment
+
 language: node_js
 
 node_js:
@@ -7,4 +9,11 @@ cache: npm
 
 before_install:
   - ls -la
-  
+  - pwd
+  - mkdir public
+  - ls -la
+
+install:
+  - ls -la
+  - npm install
+  - ls -la
